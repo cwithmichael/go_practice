@@ -13,7 +13,6 @@ type Philosopher struct {
 }
 
 type SafeFork struct {
-	fork int
 	mux sync.Mutex
 }
 
